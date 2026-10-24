@@ -3,7 +3,8 @@
 Name: Nurassyl Zhumagul  
 Group: IT-2501
 
-Open index.html in a browser to run the assignment
+[Open index.html in a browser to run the assignment](https://zhumagulnurasyl-lang.github.io/Web5assignment/)
+
 ## Task 1 - Personal Info Object
 
 The userProfile object stores a name, birth year, developer status, and hobbies. These properties demonstrate a string, number, boolean, and array, and they are displayed on the page.
