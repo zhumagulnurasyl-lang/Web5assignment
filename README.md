@@ -3,7 +3,7 @@
 Name: Nurassyl Zhumagul  
 Group: IT-2501
 
-[Open index.html in a browser to run the assignment](https://zhumagulnurasyl-lang.github.io/Web5assignment/)
+https://zhumagulnurasyl-lang.github.io/Web5assignment/
 
 ## Task 1 - Personal Info Object
 
