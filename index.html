@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 5 - JavaScript Basics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Assignment 5 - JavaScript Basics</h1>
+
+    <!-- Task 1 -->
+    <section>
+        <h2>Task 1 - Personal Info Object</h2>
+        <p>Name (string): <span id="nameOutput"></span></p>
+        <p>Birth year (number): <span id="birthYearOutput"></span></p>
+        <p>Is developer (boolean): <span id="developerOutput"></span></p>
+        <p>Hobbies (array): <span id="hobbiesOutput"></span></p>
+    </section>
+
+    <!-- Task 2 -->
+    <section>
+        <h2>Task 2 - Arithmetic Calculations</h2>
+        <p>Age (based on birth year): <span id="ageOutput"></span></p>
+        <p>Approximate months old: <span id="monthsOutput"></span></p>
+    </section>
+
+    <!-- Task 3 & 4 -->
+    <section>
+        <h2>Task 3 &amp; 4 - Update Profile</h2>
+        <form id="profileForm">
+            <p>
+                <label for="username">Username</label>
+                <input type="text" id="username" required>
+            </p>
+            <p>
+                <label for="birthYear">Birth Year</label>
+                <input type="number" id="birthYear" min="1" step="1" required>
+            </p>
+            <button type="submit">Create / Update Profile</button>
+        </form>
+    </section>
+
+    <!-- Task 5 -->
+    <section>
+        <h2>Task 5 - DOM List Manipulation</h2>
+        <p>This practice list is separate from the profile hobbies.</p>
+        <label for="itemInput">New hobby</label>
+        <input type="text" id="itemInput">
+        <button type="button" id="addItemButton">Add Item</button>
+        <button type="button" id="removeItemButton">Remove Item</button>
+        <ul id="itemList"></ul>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
